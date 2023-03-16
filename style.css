@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat'
+}
+
+
+/* Global Styles */
+
+body {
+    background-color: #f2f2f2;
+    color: rgb(6, 1, 32);
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* Header */
+
+header {
+    background-color: rgb(59, 92, 130);
+    color: #fff;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Main */
+
+main {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-1 {
+    background-image: url('background-page.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hero h2 {
+    margin-top: 10px;
+    text-justify: inter-word;
+    text-align: center;
+    font-weight: bold;
+    animation: pulse;
+    animation-duration: 1s;
+}
+
+.hero p {
+    margin-top: 20px;
+}
+
+.tentang-kami h3 {
+    margin-top: 80px;
+    text-justify: inter-word;
+}
+
+.tentang-kami p {
+    margin-top: 20px
+}
+
+.program h3 {
+    margin-top: 230px;
+    text-justify: inter-word;
+}
+
+.program ul li {
+    margin-top: 20px;
+}
+
+.kontak h3 {
+    margin-top: 100px;
+    text-justify: inter-word;
+}
+
+
+/* Form */
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form input[type="submit"] {
+    display: inline-block;
+    background-color: rgb(59, 92, 130);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: rgb(165, 190, 218);
+}
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(59, 92, 130);
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
